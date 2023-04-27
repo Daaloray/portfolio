@@ -6,7 +6,7 @@ body {
 
 #dpcont > a {
     text-decoration: none;
-    
+    color: black;
 }
 
 
@@ -23,7 +23,7 @@ width: 90vw;
 padding-top: 10vh;
 display:grid;
 background: rgb(255, 255, 255);
-position: relative;
+
 
     
 
@@ -39,7 +39,11 @@ nav {
 
 
 
-
+#dp {
+    height: 19px;
+    width: 18px;
+    border-radius: 50%;
+}
 
 footer {
     position: fixed;
@@ -62,7 +66,7 @@ footer {
 
 
 .a {
-   padding-top: 85px; 
+   padding-top: 15vh; 
    height: 70vh;
    width: 60vw;
    
@@ -86,7 +90,11 @@ footer {
     object-fit: contain;
 }
 
-
+.mypic {
+    height: 190px;
+    width: 188px;
+    border-radius: 50%;
+}
 
 
 .shape {
