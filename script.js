@@ -20,7 +20,7 @@ if (scrollTop + windowHeight >= docHeight) {
 
 // typwriter effect
 
-const words = [ "A Frontend geek", "A Medical student", "and a Web Developer" ];
+const words = [ "FRONTEND ENGINEER", "CONTENT WRITER", "AND FULL STACK WEB DEVELOPER" ];
 let index = 0;
 let letterIndex = 0;
 let isDeleting = false;
