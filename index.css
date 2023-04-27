@@ -74,7 +74,10 @@ footer {
 }
 
 .b {
-    object-fit: contain;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
     height: 80vh;
     width: 30vw;
 }
@@ -105,8 +108,14 @@ height: 300px;
 width: 300px;
 }
 
-i {
+.font-red {
     color: #880D1E;
+    
+}
+i {
     font-size: 25px;
 }
 
+a {
+    color: black;
+}
